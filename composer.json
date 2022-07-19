@@ -1,0 +1,7 @@
+{
+    "require": {
+        "melbahja/seo": "^2.0",
+        "theiconic/name-parser": "^1.2",
+        "tuqqu/gender-detector": "^0.3.0"
+    }
+}

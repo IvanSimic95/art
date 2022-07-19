@@ -1,0 +1,2 @@
+[25-Jun-2021 00:00:31 UTC] PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in /home/melissapsychic/public_html/assets/Api/connection.php on line 27
+[26-Jun-2021 14:32:46 UTC] PHP Warning:  http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given in /home/melissapsychic/public_html/assets/Api/connection.php on line 27

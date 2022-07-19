@@ -1,0 +1,99 @@
+.rotate {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: -webkit-transform 0.4s ease;
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+
+.fas {
+transition: all 0.5s ease;
+}
+
+.fa-chevron-right {
+margin-right:15px;
+}
+
+.title {
+    height: 2.5em;
+    width: 75%;
+    margin-left: 12.5%;
+    background: linear-gradient(90deg,#d130eb,#4a30eb 80%,#2b216c);
+    color: #fff;
+    text-align: center;
+    padding-top: .5em;
+    box-shadow: 3px 5px 2px #999;
+	    margin-bottom: 30px;
+}
+
+i {
+    margin-right: 1em;
+}
+
+.faq li {
+    padding: 0.75em;
+}
+
+.faq li.q {
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 1px #ccc solid;
+    cursor: pointer;
+	background-color: #fff;
+	transition: all 0.5s ease;
+	    border-radius: 8px;
+}
+
+.faq-question {
+background: -webkit-linear-gradient(#d130eb,#4a30eb 80%,#2b216c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+label{
+	font-weight:bold!important;
+background: -webkit-linear-gradient(#d130eb,#4a30eb 80%,#2b216c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+}
+
+.form_box{
+margin-bottom:10px!important;
+}
+
+.faq li.a {
+    font-weight: bold;
+    color: #682A77;
+    background: #fff;
+    display: none;
+	border-bottom: 1px solid #cad1da;
+	border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.remove-radius{
+	border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+	}
+
+/********* MEDIA QUERIES ************/
+@media (max-width: 800px) {
+    
+ 
+    
+    .faq li {
+		padding:10px;
+    }
+    
+    .faq li.a {
+        width: 100%;
+    }
+    
+    footer h3 {
+        width: 90%;
+        margin: 0 5%;
+        text-align: center;
+    }
+}
