@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
 $startpixel = 1;
-$FBPixel = "3687138444845960";
+$FBPixel = "";
 $FBPurchasePixel = "";
 $FBViewContent = "";
 $productMETA = "";
@@ -151,14 +151,14 @@ if($domain == "soulmate.test"){
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "soulmate";
-	$base_url = "https://soulmate.test";
+    $dbname = "art";
+	$base_url = "https://art.test";
 }else{
     $servername = "localhost";
-    $username = "soulmate_user";
-    $password = "zcV7_CuxEPDB";
-    $dbname = "soulmate_shop";
-	$base_url = "https://soulmate-artist.com";
+    $username = "art_user";
+    $password = "Jepang123Iva";
+    $dbname = "art_psychic";
+	$base_url = "https://psychic-art.com";
 }
 
 // Create connection
