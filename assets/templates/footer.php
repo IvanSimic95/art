@@ -1,23 +1,5 @@
   </main>
 
-  <script>    var mysrc = "https://tracking.buygoods.com/track/?a=6274&firstcookie=0"
-      +"&tracking_redirect=&referrer="+encodeURIComponent(document.referrer)
-      +"&sessid2="+ReadCookie('sessid2')+"&product=<?php echo $bgproduct; ?>&caller_url="+encodeURIComponent(window.location.href);
-    if(typeof add_to_cart !== 'undefined')
-    {
-    mysrc = mysrc+'&add_to_cart='+add_to_cart;
-    }
-
-    var newScript = document.createElement('script');
-    newScript.type = 'text/javascript';
-    newScript.defer = true;
-    newScript.src = mysrc;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(newScript, s);
-
-    function ReadCookie(name){name += '='; var parts = document.cookie.split(/;s*/);for (var i = 0; i < parts.length; i++) {var part = parts[i]; if (part.indexOf(name) == 0) return part.substring(name.length)} return '';}
-	</script>
-
   
 <?php if ($startpixel == 1) { ?>
 <!-- Meta Pixel Code -->
@@ -70,9 +52,7 @@ src="https://www.facebook.com/tr?id=<?php echo $FBPixel; ?>&ev=PageView&noscript
       <div class="paragraph">
       Disclaimer: The information contained herein should not be used as a substitute for the advice of appropriately qualified and licensed person. According to the laws in force, I must state that my services are for entertainments purposes only. I have no liability and/or responsibility for any actions and/or decisions any buyer/client chooses to take or make based on his/her consultation. You  acknowledge that I am not a licensed psychologist, lawyer, or health care professional and my services do not replace the care of lawyers, psychologists, or other healthcare professionals. Tarot and numerology are in no way to be construed or substituted as psychological counseling or any other type of therapy or medical advice. I will at all times exercise my best professional efforts, skills, and care.</div>
       <hr>
-      <span id=disclaimer-bg></span>
-<script src="https://display.buygoods.com/v1/disclaimer?id=disclaimer-bg&account_id=6274"></script>
-<hr>
+  
 <style>
   #disclaimer-bg > div > div{
     background:transparent!important;
