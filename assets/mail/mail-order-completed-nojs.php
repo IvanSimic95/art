@@ -5,7 +5,7 @@
 	$username = "melissap_melissapsychic";
 	$password = ";w[#i&[zcrm?";
 	$dbname = "melissap_website";
-	$base_url = "https://www.soulmate-artist.com";
+	$base_url = "https://www.psychic-art.com";
 
 
 

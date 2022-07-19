@@ -126,7 +126,7 @@ if($domain == "melissa.test"){
     $username = "melissap_melissapsychic";
     $password = ";w[#i&[zcrm?";
     $dbname = "melissap_website";
-	$base_url = "https://soulmate-artist.com";
+	$base_url = "https://psychic-art.com";
 }
 
 // Create connection

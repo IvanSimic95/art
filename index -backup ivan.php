@@ -14,7 +14,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php'; ?>
           <h1><span>I am Melissa, </span>
           <h2> a forceful and energetic Modern Psychic Expert, a gifted artist with the ability of clairvoyance, clairaudience, claircognizance, and clairsentience. The purpose of my intuitive gifts is to give you a greater understanding of love and life, which in turn, changes the quality and experience of your life, career and health.. </h2>
           
-          <a class="btn" href="https://www.soulmate-artist.com/about.php">READ MORE</a>
+          <a class="btn" href="https://www.psychic-art.com/about.php">READ MORE</a>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://www.soulmate-artist.com/assets/mail/mail-welcome.php');
+curl_setopt($ch, CURLOPT_URL, 'https://www.psychic-art.com/assets/mail/mail-welcome.php');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_GET, 1);
 

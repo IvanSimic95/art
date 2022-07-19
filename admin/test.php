@@ -61,7 +61,7 @@ $order_product = "Soulmate Drawing & Reading";
      var admin = new Talk.User({
          id: "administrator",
          name: "Melissa",
-         email: "contact@soulmate-artist.com",
+         email: "contact@psychic-art.com",
          photoUrl: "/assets/img/avatars/admin.png",
          role: "admin"
      });

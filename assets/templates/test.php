@@ -19,7 +19,7 @@
         var me = new Talk.User({
             id: "administrator",
             name: "Melissa Psychic",
-            email: "contact@soulmate-artist.com",
+            email: "contact@psychic-art.com",
             photoUrl: "/assets/img/avatars/admin.png",
             role: "admin"
         });

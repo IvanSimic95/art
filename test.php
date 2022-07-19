@@ -12,7 +12,7 @@ $fbc = "";
 $fbp = "";
 $Fproduct = array('soulmate');
 $price = "49.99";
-$domain = "soulmate-artist.com";
+$domain = "psychic-art.com";
 
 $accessToken1 = "EAAQdSy3JN5QBAPgrqO52jtPQWl04D2nti6V5gHaiYkl50iBLu3O5jIohmZA0GsWBNqQOs";
 $accessToken2 = "MYZB9qGeZBZAZBVHkuTdj26ZAXWRMhMM9TuvTLkRKJtxxksdCLXStTWKjipEMDYY00DSfiZCS6KaaTUZCHjpYZCQBZCv8AeAgWgqQHKYARWZAqa7bu0rmT";

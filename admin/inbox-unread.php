@@ -32,7 +32,7 @@ $signature = hash_hmac('sha256', 'administrator', 'sk_live_Ncow50B9RdRQFeXBsW45c
      var admin = new Talk.User({
          id: "administrator",
          name: "Melissa",
-         email: "contact@soulmate-artist.com",
+         email: "contact@psychic-art.com",
          photoUrl: "/assets/img/avatars/admin.png",
          role: "administrator"
      });

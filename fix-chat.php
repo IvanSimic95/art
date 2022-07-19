@@ -13,7 +13,7 @@ $signature = hash_hmac('sha256', strval($orderID), 'sk_live_Ncow50B9RdRQFeXBsW45
 
 empty($errorDisplay) ?  $testError = FALSE : $testError = TRUE;
 if($testError == TRUE){
-$errorDisplay .= "<hr> URL should be like this: https://soulmate-artist.com/fix-chat.php?order=123&name=ivan&email=test@test.com&product=Soulmate Drawing & Reading&codename=soulmate";
+$errorDisplay .= "<hr> URL should be like this: https://psychic-art.com/fix-chat.php?order=123&name=ivan&email=test@test.com&product=Soulmate Drawing & Reading&codename=soulmate";
 $errorDisplay .= "Any missing variable = script can't fix up chat!";
 }else{
 

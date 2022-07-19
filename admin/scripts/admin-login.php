@@ -5,7 +5,7 @@ $email = $password = $call_login=$set_email=$emailErr=$passErr='';
 if(isset($_POST['email']))$email = $_POST['email'];
 if(isset($_POST['password']))$password = $_POST['password'];
 
-if($email=="admin@soulmate-artist.com" && $password=="123Dadada123!")
+if($email=="admin@psychic-art.com" && $password=="123Dadada123!")
  {
    session_start();
    $_SESSION['email']=$email;

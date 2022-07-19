@@ -264,7 +264,7 @@ $product->offers = new Thing('Offer', [
     'availability' => 'https://schema.org/InStock',
     'priceCurrency' => 'USD',
     "price" => "19.99",
-    'url' => 'https://soulmate-artist.com/soulmate-drawing.php',
+    'url' => 'https://psychic-art.com/soulmate-drawing.php',
     "itemCondition" => "https://schema.org/NewCondition",
 ]);
 $product->review = new Thing('aggregateRating', [
@@ -273,8 +273,8 @@ $product->review = new Thing('aggregateRating', [
 ]);
 
 $webpage = new Thing("WebPage", [
-    '@id' => "https://soulmate-artist.com/soulmate-drawing.php",
-    'url' => "https://soulmate-artist.com/soulmate-drawing.php",
+    '@id' => "https://psychic-art.com/soulmate-drawing.php",
+    'url' => "https://psychic-art.com/soulmate-drawing.php",
     'name' => 'Soulmate Drawing & Reading',
 ]);
 

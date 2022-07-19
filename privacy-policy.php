@@ -16,7 +16,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/templates/header.php'; ?>
   <div class="container">
     <div class="title_area"><h1>Privacy Policy</h1></div>
     <div class="paragraph_area">
-      <p>Welcome to https://soulmate-artist.com and https://psychic-melissa.com (the “Site”). We understand that privacy online is important to users of our Site, especially when conducting business. This statement governs our privacy policies with respect to those users of the Site (“Visitors”) who visit without transacting business and Visitors who register to transact business on the Site and make use of the various services offered by Psychic Melissa (collectively, “Services”) (“Authorized Customers”).</p>
+      <p>Welcome to https://psychic-art.com and https://psychic-melissa.com (the “Site”). We understand that privacy online is important to users of our Site, especially when conducting business. This statement governs our privacy policies with respect to those users of the Site (“Visitors”) who visit without transacting business and Visitors who register to transact business on the Site and make use of the various services offered by Psychic Melissa (collectively, “Services”) (“Authorized Customers”).</p>
       <h2>“Personally Identifiable Information”</h2>
       <p>refers to any information that identifies or can be used to identify, contact, or locate the person to whom such information pertains, including, but not limited to, name, address, phone number, fax number, email address, financial profiles, social security number, and credit card information. Personally Identifiable Information does not include information that is collected anonymously (that is, without identification of the individual user) or demographic information not connected to an identified individual.</p>
       <h2>What Personally Identifiable Information is collected?</h2>
@@ -34,7 +34,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/templates/header.php'; ?>
       <h2>Cookies</h2>
       <p>A cookie is a string of information that a website stores on a visitor’s computer, and that the visitor’s browser provides to the website each time the visitor returns.</p>
       <h2>Are Cookies Used on the Site?</h2>
-      <p>Cookies are used for a variety of reasons. We use Cookies to obtain information about the preferences of our Visitors and the services they select. We also use Cookies for security purposes to protect our Authorized Customers. For example, if an Authorized Customer is logged on and the site is unused for more than 10 minutes, we will automatically log the Authorized Customer off. Visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using https://soulmate-artist.com and https://psychic-melissa.com, with the drawback that certain features of website may not function properly without the aid of cookies.</p>
+      <p>Cookies are used for a variety of reasons. We use Cookies to obtain information about the preferences of our Visitors and the services they select. We also use Cookies for security purposes to protect our Authorized Customers. For example, if an Authorized Customer is logged on and the site is unused for more than 10 minutes, we will automatically log the Authorized Customer off. Visitors who do not wish to have cookies placed on their computers should set their browsers to refuse cookies before using https://psychic-art.com and https://psychic-melissa.com, with the drawback that certain features of website may not function properly without the aid of cookies.</p>
       <h2>Cookies used by our service providers</h2>
       <p>Our service providers use cookies and those cookies may be stored on your computer when you visit our website. You can find more details about which cookies are used in our cookies info page.</p>
       <p>How does Psychic Melissa use login information?</p>
@@ -53,7 +53,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/templates/header.php'; ?>
       <h2>What happens if the Privacy Policy Changes?</h2>
       <p>We will let our Visitors and Authorized Customers know about changes to our privacy policy by posting such changes on the Site. However, if we are changing our privacy policy in a manner that might cause disclosure of Personally Identifiable Information that a Visitor or Authorized Customer has previously requested not be disclosed, we will contact such Visitor or Authorized Customer to allow such Visitor or Authorized Customer to prevent such disclosure.</p>
       <h2>Links:</h2>
-      <p>https://soulmate-artist.com and https://psychic-melissa.com contains links to other websites. Please note that when you click on one of these links, you are moving to another website. We encourage you to read the privacy statements of these linked sites as their privacy policies may differ from ours.</p>
+      <p>https://psychic-art.com and https://psychic-melissa.com contains links to other websites. Please note that when you click on one of these links, you are moving to another website. We encourage you to read the privacy statements of these linked sites as their privacy policies may differ from ours.</p>
     </div>
     <div class="sub_area" id="facebook_policy">
       <h2>Facebook Policy</h2>
@@ -107,14 +107,14 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/templates/header.php'; ?>
     </div>
     <div class="sub_area" id="california">
       <h2>California Privacy Rights</h2>
-      <p>If you are a California resident, California Civil Code Section 1798.83 permits you to request information regarding the disclosure of your personal information by <strong>Psychic Melissa</strong> to third parties for the third parties’ direct marketing purposes. To make such a request, please send an email to contact@soulmate-artist.com</p>
+      <p>If you are a California resident, California Civil Code Section 1798.83 permits you to request information regarding the disclosure of your personal information by <strong>Psychic Melissa</strong> to third parties for the third parties’ direct marketing purposes. To make such a request, please send an email to contact@psychic-art.com</p>
       <p>We take great pride in the relationship of trust and we are dedicated to treating your personal information with care and respect. Pursuant to California Civil Code Section 1798.83(c)(2),<strong> Psychic Melissa</strong> does not share guests’ personal information with other companies or others outside for those parties’ direct marketing use unless a guest elects that we do so.  For more information about our privacy and data collection policies, you may wish to review our Privacy Policy.</p>
-      <p>If you are a California resident under the age of 18, and a registered user of any site where this policy is posted, California Business and Professions Code Section 22581 permits you to request and obtain removal of content or information you have publicly posted. To make such a request, please send an email with a detailed description of the specific content or information to <strong>contact@soulmate-artist.com</strong>. Please be aware that such a request does not ensure complete or comprehensive removal of the content or information you have posted and that there may be circumstances in which the law does not require or allow removal even if requested.</p>
+      <p>If you are a California resident under the age of 18, and a registered user of any site where this policy is posted, California Business and Professions Code Section 22581 permits you to request and obtain removal of content or information you have publicly posted. To make such a request, please send an email with a detailed description of the specific content or information to <strong>contact@psychic-art.com</strong>. Please be aware that such a request does not ensure complete or comprehensive removal of the content or information you have posted and that there may be circumstances in which the law does not require or allow removal even if requested.</p>
     </div>
     <div class="sub_area" id="ccpa">
       <h2>CCPA – California Consumer Privacy Act</h2>
       <h4>Definitions<br />Website</h4>
-      <p>Psychic Melissa or https://soulmate-artist.com and https://psychic-melissa.com</p>
+      <p>Psychic Melissa or https://psychic-art.com and https://psychic-melissa.com</p>
       <p>Owner (or We)</p>
       <p>Indicates the natural person(s) or legal entity that provides this Website to Users.</p>
       <p>User (or You)</p>
@@ -143,7 +143,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/templates/header.php'; ?>
       <p>We may deny your deletion request if retaining the information is necessary for us or our service provider(s) to:</p>
       <p>Complete the transaction for which we collected the personal information, provide a good or service that you requested, take actions reasonably anticipated within the context of our ongoing business relationship with you, or otherwise perform our contract with you.<br />Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for such activities.<br />Debug products to identify and repair errors that impair existing intended functionality.<br />Comply with the California Electronic Communications Privacy Act (Cal. Penal Code § 1546 seq.). Enable solely internal uses that are reasonably aligned with consumer expectations based on your relationship with us.<br />Comply with a legal obligation.<br />Make other internal and lawful uses of that information that are compatible with the context in which you provided it.<br />Exercising Access, Data Portability, and Deletion Rights</p>
       <p>To exercise the access, data portability, and deletion rights described above, please submit a verifiable consumer request to us by either:</p>
-      <p>Emailing us at contact@soulmate-artist.com</p>
+      <p>Emailing us at contact@psychic-art.com</p>
       <p>Only you, or a person registered with the California Secretary of State that you authorize to act on your behalf, may make a verifiable consumer request related to your personal information. You may also make a verifiable consumer request on behalf of your minor child.</p>
       <p>You may only make a verifiable consumer request for access or data portability twice within a 12-month period. The verifiable consumer request must:</p>
       <p>Provide sufficient information that allows us to reasonably verify you are the person about whom we’ve collected personal information or an authorized representative.<br />Describe your request with sufficient detail that allows us to properly understand, evaluate, and respond to it.</p>
@@ -165,7 +165,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/templates/header.php'; ?>
       <p>We reserve the right to amend this privacy notice at our discretion and at any time. When we make changes to this privacy notice, we will post the updated notice on our Website and update the notice’s effective date. Your continued use of our Website following the posting of changes constitutes your acceptance of such changes.</p>
       <h4>Contact Information</h4>
       <p>If you have any questions or comments about this notice, the ways in which we collect and use your information described below and in our Privacy Policy, your choices and rights regarding such use, or wish to exercise your rights under California law, please do not hesitate to contact us at:</p>
-      <p>Website: https://soulmate-artist.com and https://psychic-melissa.com<br />Email: contact@psychic-melissa.com</p>
+      <p>Website: https://psychic-art.com and https://psychic-melissa.com<br />Email: contact@psychic-melissa.com</p>
     </div>
     <div class="sub_area" id="coppa">
       <h2>COPPA – Children’s Online Privacy Policy</h2>

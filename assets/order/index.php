@@ -8,7 +8,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/assets/order/func/complete-orders.php';
 
 /*
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://www.soulmate-artist.com/assets/order/func/start-orders.php');
+curl_setopt($ch, CURLOPT_URL, 'https://www.psychic-art.com/assets/order/func/start-orders.php');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HTTPGET, 1);
 
@@ -18,7 +18,7 @@ curl_close ($ch);
 echo $result ;
 
 $ch2 = curl_init();
-curl_setopt($ch2, CURLOPT_URL, 'https://www.soulmate-artist.com/assets/order/func/complete-orders.php');
+curl_setopt($ch2, CURLOPT_URL, 'https://www.psychic-art.com/assets/order/func/complete-orders.php');
 curl_setopt($ch2, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch2, CURLOPT_HTTPGET, 1);
 

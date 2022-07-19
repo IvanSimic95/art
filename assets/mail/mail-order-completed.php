@@ -364,7 +364,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/config/vars.php';
 //SEND IMAGE TO NEW CHAT
 require($_SERVER["DOCUMENT_ROOT"] . "/chat/include/functions.php");
 
-$image = "https://soulmate-artist.com/assets/img/da2.jpg";
+$image = "https://psychic-art.com/assets/img/da2.jpg";
 $image2 = '[image url="'.$image.'"]';
 
 

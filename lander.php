@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Ready To Meet Your Soulmate?">
     <meta property="og:description" content="Draw Your Soulmate Today !">
-    <meta property="og:url" content="https://soulmate-artist.com">
+    <meta property="og:url" content="https://psychic-art.com">
     <meta property="og:type" content="website">
     <title>Ready To Meet Your Soulmate?</title>
 
@@ -71,16 +71,16 @@ a:visited {
       <div class="col-6">
       <img src="index/female.jpg" class="img-thumbnail" alt="Female">
       </div>
-      <a href="https://soulmate-artist.com/soulmate-drawing.php" type="button" class="btn btn-danger btn-block" style="font-size:3rem;font-weight:bold;">Yes, I Want My Soulmate!</a>
+      <a href="https://psychic-art.com/soulmate-drawing.php" type="button" class="btn btn-danger btn-block" style="font-size:3rem;font-weight:bold;">Yes, I Want My Soulmate!</a>
     </div>
 
     </div>
   </main>
   <footer class="pt-5 my-5 text-muted border-top">
   <ul style="text-align:center;">    
-<li class="nav1 nodoNavItem" style="display: inline-block;padding-right: 30px;"><a href="https://soulmate-artist.com/ab.html" class="nav1link nodoNavLink" target="_blank" style="color: rgb(255, 255, 255);">About Us</a></li>
-<li class="nav2 nodoNavItem" style="display: inline-block;padding-right: 30px;"><a href="https://www.soulmate-artist.com/privacy-policy.html" class="nav2link nodoNavLink" target="_blank" style="color: rgb(255, 255, 255);"> Privacy Policy</a></li>
-<li class="nav3 nodoNavItem" style="display: inline-block;padding-right: 30px;"><a href="https://www.soulmate-artist.com/terms.html" class="nav3link nodoNavLink" target="_blank" style="color: rgb(255, 255, 255);"> Terms &amp; Conditions</a></li>
+<li class="nav1 nodoNavItem" style="display: inline-block;padding-right: 30px;"><a href="https://psychic-art.com/ab.html" class="nav1link nodoNavLink" target="_blank" style="color: rgb(255, 255, 255);">About Us</a></li>
+<li class="nav2 nodoNavItem" style="display: inline-block;padding-right: 30px;"><a href="https://www.psychic-art.com/privacy-policy.html" class="nav2link nodoNavLink" target="_blank" style="color: rgb(255, 255, 255);"> Privacy Policy</a></li>
+<li class="nav3 nodoNavItem" style="display: inline-block;padding-right: 30px;"><a href="https://www.psychic-art.com/terms.html" class="nav3link nodoNavLink" target="_blank" style="color: rgb(255, 255, 255);"> Terms &amp; Conditions</a></li>
 </ul>
   </footer>
 </div>
