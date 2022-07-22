@@ -55,6 +55,12 @@
     <label for="form_name">Your First and Last Name*</label>
     <input class="customer_name" type="text" id="fullname" name="form_name" value="" required>
   </div>
+
+  <div class="form_box">
+    <label for="form_email">Your Email*</label>
+    <input class="customer_email" type="email" id="email" name="form_email" value="" required>
+  </div>
+
   <div class="form_box">
     <span>Your Birth Date*</span>
     <div class="sides">
@@ -185,8 +191,6 @@
 
 </form>
 
-<div id="cartfuelpmct"></div>
-<script id="cartfuel_pm_frame.js" src="https://app.cartfuel.io/js/embed/cartfuel_pm_frame.js"></script> 
 
 <style>@media(max-width: 1080px) {
 	
@@ -265,7 +269,7 @@ select:invalid { color: gray; }
             $(document).ready(function($){
              
 
-              $("#cartfuel-payment-frame").hide();
+              //$("#solid-payment-form-container").hide();
 		 
             // hide messages 
             $("#error").hide();
@@ -309,12 +313,10 @@ select:invalid { color: gray; }
                      $(".saved").fadeOut();
                      $(".saleend").fadeOut();
                      $(".prodtitle").fadeOut();
-                    setTimeout(function() { 
-                        cartfuelInit({id: Redirect, data:{order_ID: orderID, cookie_ID: <?php echo $_SESSION['user_cookie_id']; ?>, referal: referal}})
-                    }, 300);
+                   
                  
                       
-                      $("#cartfuel-payment-frame").fadeIn();
+                     alert(Redirect);
 
                       }else{
                       $("#error").html(DataMSG);

@@ -14,7 +14,7 @@ $productMETA = "";
 $accessToken1 = "EAAQdSy3JN5QBAPgrqO52jtPQWl04D2nti6V5gHaiYkl50iBLu3O5jIohmZA0GsWBNqQOs";
 $accessToken2 = "MYZB9qGeZBZAZBVHkuTdj26ZAXWRMhMM9TuvTLkRKJtxxksdCLXStTWKjipEMDYY00DSfiZCS6KaaTUZCHjpYZCQBZCv8AeAgWgqQHKYARWZAqa7bu0rmT";
 $fbAccessToken = $accessToken1.$accessToken2;
-$sendFBAPI = 1; #Set to 1 to send data via api
+$sendFBAPI = 0; #Set to 1 to send data via api
 
 if(!isset($_SESSION['PixelDATA'])){
 $_SESSION['PixelDATA'] = 0;
@@ -115,6 +115,7 @@ function missingLog($array) {
 
 
 
+
 //Find First and Last name
 function splitNames($name) {
   $apiKey = 'Whc29bSnvP3zrQG3hYCwXKMoYu5h4ZQukS6n'; //Your API Key
@@ -147,12 +148,12 @@ function splitNames($name) {
 
 //START Database Configuration
 $domain = $_SERVER['HTTP_HOST'];
-if($domain == "soulmate.test"){
+if($domain == "psychic.test"){
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "art";
-	$base_url = "https://art.test";
+    $dbname = "psychic";
+	$base_url = "https://psychic.test";
 }else{
     $servername = "localhost";
     $username = "art_user";

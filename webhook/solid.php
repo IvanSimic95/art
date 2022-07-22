@@ -2,14 +2,12 @@
 $json = file_get_contents('php://input');
 $obj=json_decode($json); // put the second parameter as true if you want it to be a associative array
 
-$order_email = $obj->customer->email;
-$order_price = "29.99";
-$order_buygoods = $obj->customer->user_id;
-$cookie_id = $obj->metadata->cookie_ID;
-$mOrderID = $obj->metadata->order_ID;
-$cName = $obj->customer->name;
+$order_email = $obj->order->customer_email;
+$order_buygoods = $obj->transaction->id;
+$mOrderID = $obj->order->order_id;
+$cName = $obj->order->customer_email;
 $productImage = "https://psychic-art.com/assets/img/14dk.jpg";
-$productFullTitle = $obj->product->product_name;
+$productFullTitle = $obj->order->order_description;
 $logaArray[] = "Order #".$mOrderID;
 $logaArray[] = $order_email;
 $logaArray[] = $productFullTitle;
@@ -17,7 +15,7 @@ $logaArray[] = $json;
 if($order_email) {
 include_once $_SERVER['DOCUMENT_ROOT'].'/config/vars.php';
 
-    $sql = "UPDATE `orders` SET `order_status`='paid',`order_email`='$order_email',`order_price`='$order_price',`buygoods_order_id`='$order_buygoods' WHERE order_id='$mOrderID'" ;
+    $sql = "UPDATE `orders` SET `order_status`='paid',`buygoods_order_id`='$order_buygoods' WHERE order_id='$mOrderID'" ;
 
     if ($conn->query($sql) === TRUE) {
       //echo "Order Status updated to Paid succesfully!";
