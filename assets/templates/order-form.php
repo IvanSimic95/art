@@ -309,14 +309,13 @@ select:invalid { color: gray; }
                       $("#submitbtn").html('<i class="fas fa-spinner fa-pulse"></i> Redirecting...');
                       
                      $("#ajax-form").fadeOut();
-                     $(".price_box").fadeOut();
-                     $(".saved").fadeOut();
-                     $(".saleend").fadeOut();
-                     $(".prodtitle").fadeOut();
+                     //$(".price_box").fadeOut();
+                    // $(".saved").fadeOut();
+                     //$(".saleend").fadeOut();
+                     //$(".prodtitle").fadeOut();
                    
-                 
+                     window.location.href = Redirect;
                       
-                     alert(Redirect);
 
                       }else{
                       $("#error").html(DataMSG);
