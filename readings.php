@@ -199,7 +199,7 @@ text-align:center;
         <input class="userage" type="hidden" id="userage" name="form_age" value="<?php echo $_SESSION['orderAge']; ?>">
         <input class="usergender" type="hidden" id="usergender" name="usergender" value="<?php echo $_SESSION['orderGender']; ?>">
         <input class="partnergender" type="hidden" id="partnergender" name="partnergender" value="<?php echo $_SESSION['orderPartnerGender']; ?>">
-        <input class="email" type="hidden" name="bgemail" value="<?php echo $_SESSION['BGEmail']; ?>">
+        <input class="email" type="hidden" name="bgemail" value="<?php echo $_SESSION['orderEmail']; ?>">
         <input class="cookie" type="hidden" name="cookie_id" value="<?php echo $_SESSION['user_cookie_id2']; ?>">
         <input class="price" type="hidden" id="product_price" name="price" value="19.99">
         <input class="fbp" type="hidden" name="fbp" value="<?php echo $UserFBP; ?>">
