@@ -92,6 +92,7 @@ if(mysqli_query($conn,$sql)){
 $submitStatus = "Success";
 $SuccessMessage = "Information saved, Redirecting you to Payment Page Now!";
 
+$returnURL = "https://".$domain."/success-reading.php?order=".$lastRowInsert;
 
 //First create TalkJS User with same ID as conversation
 $ch = curl_init();
@@ -112,7 +113,7 @@ $data = [
   "public_name" => "Psychic Art", 
   "order_title" => $order_product_nice, 
   "order_description" => "Order Description Sample",
-  "back_url" => "https://".$domain."/soulmate-drawing.php"
+  "back_url" => "https://".$domain."/readings.php"
 ]
 
 ];

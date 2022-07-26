@@ -5,17 +5,15 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/config/vars.php';
 $_SESSION['fbfireUpsellpixel'] = 0;
 
 
-// set parameters and execute
-isset($_GET['emailaddress']) ? $order_email = $_GET['emailaddress'] : $order_email = "N/A";
-isset($_GET['order_id']) ? $order_buygoods = $_GET['order_id'] : $order_buygoods = "N/A";
-isset($_GET['total']) ? $order_price = $_GET['total'] : $order_price = "19.99";
+
 $cookie_id = $_SESSION['user_cookie_id2'];
 $createChat = "";
 
+isset($_GET['order']) ? $orderID = $_GET['order'] : $orderID = "";
 
-if(isset($cookie_id)) {
+if(isset($orderID)) {
   //Find Correct Order
-  $sql = "SELECT * FROM `orders` WHERE `cookie_id` = '$cookie_id' ORDER BY  `order_id` DESC LIMIT 1";
+  $sql = "SELECT * FROM `orders` WHERE `order_id` = '$orderID' ORDER BY  `order_id` DESC LIMIT 1";
   $result = $conn->query($sql);
   $count = $result->num_rows;
 
@@ -32,7 +30,7 @@ if(isset($cookie_id)) {
   $_SESSION['fborderPrice'] = $order_price;
   $_SESSION['fbproduct'] = $product;
 
-  $sql = "UPDATE `orders` SET `order_email`='$order_email', `order_price`='$order_price', `buygoods_order_id`='$order_buygoods', `order_status`='paid' WHERE order_id='$orderID'";
+  $sql = "UPDATE `orders` SET `order_status`='paid' WHERE order_id='$orderID'";
   $result = $conn->query($sql);
 
   $createChat = 1;
