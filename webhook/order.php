@@ -59,7 +59,7 @@ echo $result;
 $ch2 = curl_init();
 $data2 = [
 "subject" => "Order #".$mOrderID." | ".$productFullTitle,
-"participants" => ["administrator", $mOrderID],
+"participants" => ["psychicAdmin", $mOrderID],
 "photoUrl" => $productImage,
 "custom" => ["status" => "Paid"]
 ];

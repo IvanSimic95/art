@@ -71,7 +71,7 @@ echo $result;
 $ch2 = curl_init();
 $data2 = [
 "subject" => "Order #".$orderID,
-"participants" => ["administrator", $orderID],
+"participants" => ["psychicAdmin", $orderID],
 "custom" => ["status" => "Paid"]
 ];
 $data22 = json_encode($data2);

@@ -77,7 +77,7 @@
 
               <script>
                   Talk.ready.then(function() {
-                    var me = new Talk.User("administrator");
+                    var me = new Talk.User("psychicAdmin");
                     var other = new Talk.User(<?php echo $row["order_id"]; ?>);
                     window.talkSession = new Talk.Session({
                         appId: "ArJWsup2",

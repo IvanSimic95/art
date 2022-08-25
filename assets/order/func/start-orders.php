@@ -120,7 +120,7 @@ $logArray[] = $result;
 $ch2 = curl_init();
 $data2 = [
 "subject" => "Order #".$orderId." | ".$order_product_nice,
-"participants" => ["administrator", $orderId],
+"participants" => ["psychicAdmin", $orderId],
 "custom" => ["status" => "Paid"]
 ];
 $data22 = json_encode($data2);

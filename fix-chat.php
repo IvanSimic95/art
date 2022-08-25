@@ -42,7 +42,7 @@ $errorDisplay .= "Any missing variable = script can't fix up chat!";
           lastOrder: "<?php echo $orderID; ?>"
           }
       });
-      var me = new Talk.User("administrator");
+      var me = new Talk.User("psychicAdmin");
       window.talkSession = new Talk.Session({
           appId: "ArJWsup2",
           me: other,
